@@ -1,0 +1,6 @@
+~$*.xlsx
+~$*.xlsm
+backup/
+*.tmp
+*.csv
+Amazon_Sales_MIS_Report_1.xlsx
