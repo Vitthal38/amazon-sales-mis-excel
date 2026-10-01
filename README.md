@@ -64,7 +64,11 @@ These are hypotheses grounded in the numbers above, not proven causes.
 
 `d_Amt`, `d_Month`, `d_Group` etc. are named ranges over `Data!…2:…128970`.
 
+![SUMIFS in the formula bar (Excel)](images/formula.png)
+
 ### Data quality results
+![Data Quality sheet in Excel: all checks PASS / INFO](images/data-quality.png)
+
 - Unmapped statuses: **0** (PASS). Revenue reconciles between Monthly MIS and Data: **OK** (PASS).
 - 33 lines with an unknown / blank state; 7,792 blank amounts, of which **229 are on non-cancelled lines** (revenue understated); 106 non-cancelled lines with Qty = 0.
 
@@ -109,6 +113,8 @@ End Sub
 ```
 
 ## Limitations
+- **Excel repair prompt:** on first open, Excel 2016 reports "Repaired Records: Slicer Cache". Click **Yes**; the pivots and both slicers then work (checked by filtering Month in Excel 2016). Re-saving the file in a licensed Excel removes the prompt; this has not been done yet.
+- Pivot columns are narrow, so some totals show `####` until the columns are widened; pivot values are not yet formatted `#,##0`.
 - Return and Delivered statuses exist only for Merchant-fulfilled orders, so the Return % KPI is shown for Merchant orders only, and net revenue is overstated for Amazon-fulfilled orders.
 - March has one day of data (31-Mar) and the first / last weeks are partial. Growth % therefore uses average daily revenue.
 - "Order Lines" counts SKU lines, not unique orders (120,378 unique Order IDs).
