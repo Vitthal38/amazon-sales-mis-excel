@@ -19,7 +19,7 @@ A formula-driven Excel MIS workbook on **128,969 Amazon India apparel order line
 These are hypotheses grounded in the numbers above, not proven causes.
 | Finding | Recommendation |
 |---|---|
-| Merchant / Standard cancels at 17.5% vs 12.9% for Amazon / Expedited | Test moving the top SKUs (Set, kurta) to Amazon fulfilment, or tighten merchant dispatch targets. If Merchant matched the Amazon / Expedited rate, about 1,800 fewer lines would be cancelled (illustrative). |
+| Merchant / Standard cancels at 17.5% vs 12.9% for Amazon / Expedited | Test moving the top SKUs (Set, kurta) to Amazon fulfilment, or tighten merchant dispatch targets. If Merchant matched the Amazon / Expedited rate, about 1,799 fewer lines would be cancelled, worth about ₹11.7 lakh (1,799 × ₹650 average revenue per non-cancelled Merchant line; illustrative upper bound). |
 | Daily revenue −16% Apr→Jun with line value up 5.5% | Look at demand and availability (stock-outs, traffic, ads) before touching price. |
 | Set + kurta = 77% of revenue; top 10 states = 79% | Prioritise stock and fulfilment capacity for these; review very small categories (Dupatta: 3 lines, Saree: 164). |
 | 229 non-cancelled lines have a blank amount | Fix at source: revenue is understated and cannot be recovered in Excel. |
