@@ -126,5 +126,8 @@ End Sub
 3. Change thresholds in **Settings** to change the alert flags.
 4. For the automation, open the `.xlsm`, click Enable Content, then click **Refresh & Export PDF** on the Dashboard.
 
+## How I built this
+I built the workbook myself: the data cleaning, formulas, pivots, dashboard and VBA macro. I used Claude (AI) for the final README rewrite, verifying the numbers against the workbook, and the git commits (the Co-Authored-By trailers).
+
 ## About
 Built by Vitthal Misal · [LinkedIn](https://www.linkedin.com/in/vitthal-misal-analyst) · [GitHub: Vitthal38](https://github.com/Vitthal38)
