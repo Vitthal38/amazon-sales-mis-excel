@@ -127,4 +127,4 @@ End Sub
 4. For the automation, open the `.xlsm`, click Enable Content, then click **Refresh & Export PDF** on the Dashboard.
 
 ## About
-Built by Vitthal Misal ([GitHub: Vitthal38](https://github.com/Vitthal38)).
+Built by Vitthal Misal · [LinkedIn](https://www.linkedin.com/in/vitthal-misal-analyst) · [GitHub: Vitthal38](https://github.com/Vitthal38)
